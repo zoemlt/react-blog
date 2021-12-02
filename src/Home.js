@@ -16,14 +16,13 @@ const Home = () => {
     // runs for every render eg. initial render, deleting blog
     useEffect(() => {
         console.log("useEffect ran");
-        console.log(blogs);
-    })
+    }, []);
 
     return (
         <div className="home">
             <BlogList blogs={blogs} title="All Blogs" handleDelete={handleDelete}/>
         </div>
-    )
+    );
 }
 
 export default Home
