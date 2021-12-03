@@ -1,4 +1,4 @@
-import { useState, useEffect} from "react";
+import { useState, useEffect } from "react";
 
 const useFetch = (url) => {
     const [data, setData] = useState(null);
@@ -22,7 +22,6 @@ const useFetch = (url) => {
             })
             .finally(() => setIsPending(false));
     }, [url]);
-    // whenever the url changes, it will rerun to fetch data
 
     return { data, isPending, error };
 }
