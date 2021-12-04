@@ -13,16 +13,10 @@
       "id": 2
     },
     {
-      "title": "My blog title",
-      "body": "This is my blog body",
+      "title": "Manipulate, mansplain, malewife",
+      "body": "Gaslight, gatekeep, girlboss",
       "author": "mario",
-      "id": 3
-    },
-    {
-      "title": "Learning goals",
-      "body": "I want to become proficient in C# and .NET frameworks. This also requires knowledge of JavaScript and its related technologies.\nI'm honestly not too keen on C but it's a compulsory language at AUT.",
-      "author": "yoshi",
-      "id": 4
+      "id": 5
     }
   ]
 }
