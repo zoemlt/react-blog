@@ -1,3 +1,11 @@
+# Features to implement
+
+- Adding tags to each blog post.
+  Clicking on the tag will show all blogs with that tag.
+- Back arrow button for each page to return to the previous page.
+- Create a new blog author
+- Search bar
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
