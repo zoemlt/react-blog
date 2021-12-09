@@ -2,8 +2,12 @@
 
 - Adding tags to each blog post.
   Clicking on the tag will show all blogs with that tag.
+  Have a plus button to add a new tag directly to the blog post.
+
 - Back arrow button for each page to return to the previous page.
+
 - Create a new blog author
+
 - Search bar
 
 # Getting Started with Create React App

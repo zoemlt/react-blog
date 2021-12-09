@@ -63,6 +63,8 @@
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+  display: flex;
+  margin-top: 20px;
 }
 
 /* create new blog form */
@@ -102,10 +104,20 @@
 /* Style tags */
 .tags {
   margin-top: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 80%;
 }
 .tags span {
   background-color: grey;
   color: white;
   border-radius: 5px;
   padding: 5px;
+}
+.tags span:hover {
+  cursor: pointer;
+}
+
+html {
+  overflow-y: scroll;
 }

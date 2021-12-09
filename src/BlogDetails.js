@@ -23,6 +23,11 @@ const BlogDetails = () => {
                     <h2>{ blog.title }</h2>
                     <p>Written by { blog.author }</p>
                     <div>{ blog.body }</div>
+                    {blog.tags && blog.tags.map(tag => (
+                        <p className="tags">
+                            <span>{tag}</span>
+                        </p> 
+                    ))}
                     <button onClick={handleClick}>Delete blog</button>
                 </article>
             )}
