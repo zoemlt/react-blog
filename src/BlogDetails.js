@@ -14,6 +14,10 @@ const BlogDetails = () => {
         })
     }
 
+    const filterBlogs = (e) => {
+        console.log( e.target.textContent );
+    }
+
     return (
         <div className="blog-details">
             { isPending && <div>Loading...</div> }
@@ -25,7 +29,7 @@ const BlogDetails = () => {
                     <div>{ blog.body }</div>
                     {blog.tags && blog.tags.map(tag => (
                         <p className="tags">
-                            <span>{tag}</span>
+                            <span onClick={filterBlogs}>{tag}</span>
                         </p> 
                     ))}
                     <button onClick={handleClick}>Delete blog</button>

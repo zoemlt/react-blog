@@ -11,7 +11,9 @@ const BlogList = ({ blogs, title }) => {
                         <h2>{ blog.title }</h2>
                         <p>Written by { blog.author }</p>
                         {blog.tags.map(tag => (
-                        <p className="tags"><span>{tag}</span></p>
+                        <p className="tags">
+                            <span>{tag}</span>
+                        </p>
                         ))}
                     </Link>
                 </div>
